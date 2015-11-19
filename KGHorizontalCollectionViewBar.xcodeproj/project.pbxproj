@@ -14,6 +14,7 @@
 		0AABAD561BFCE4A400463EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AABAD541BFCE4A400463EFA /* LaunchScreen.storyboard */; };
 		0AABAD5E1BFCE4F700463EFA /* ParentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AABAD5D1BFCE4F700463EFA /* ParentCollectionViewController.swift */; };
 		0AABAD601BFCE53C00463EFA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABAD5F1BFCE53C00463EFA /* GLKit.framework */; };
+		0AABAD621BFCECD900463EFA /* ParentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AABAD611BFCECD900463EFA /* ParentCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0AABAD571BFCE4A400463EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AABAD5D1BFCE4F700463EFA /* ParentCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCollectionViewController.swift; sourceTree = "<group>"; };
 		0AABAD5F1BFCE53C00463EFA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0AABAD611BFCECD900463EFA /* ParentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0AABAD491BFCE4A400463EFA /* AppDelegate.swift */,
 				0AABAD4B1BFCE4A400463EFA /* FirstViewController.swift */,
 				0AABAD5D1BFCE4F700463EFA /* ParentCollectionViewController.swift */,
+				0AABAD611BFCECD900463EFA /* ParentCollectionViewCell.swift */,
 				0AABAD4F1BFCE4A400463EFA /* Main.storyboard */,
 				0AABAD521BFCE4A400463EFA /* Assets.xcassets */,
 				0AABAD541BFCE4A400463EFA /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				0AABAD5E1BFCE4F700463EFA /* ParentCollectionViewController.swift in Sources */,
 				0AABAD4A1BFCE4A400463EFA /* AppDelegate.swift in Sources */,
+				0AABAD621BFCECD900463EFA /* ParentCollectionViewCell.swift in Sources */,
 				0AABAD4C1BFCE4A400463EFA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

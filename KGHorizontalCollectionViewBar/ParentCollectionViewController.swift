@@ -34,7 +34,8 @@ extension ParentCollectionViewController: UICollectionViewDelegate, UICollection
         cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
             
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier,
-                forIndexPath: indexPath)
+                forIndexPath: indexPath) as! ParentCollectionViewCell
+            cell.setThumbnail(UIImage(named: "profile-pic")!)
             return cell
     }
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
