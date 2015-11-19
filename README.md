@@ -6,6 +6,11 @@ A ContainerView is used to load the different child ViewControllers from the Par
 
 This example loads a GLKViewController and a TableViewController.
 
+Demo:
+
+<img src="https://cloud.githubusercontent.com/assets/5519740/11259296/cf5ff7b2-8e60-11e5-8124-511a32a47688.gif" width="250">
+
+
 References:
 https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ImplementingaContainerViewController.html
 
